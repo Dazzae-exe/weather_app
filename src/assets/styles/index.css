@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        @apply text-palette-purple min-h-screen w-full bg-mesh-pattern bg-no-repeat bg-center bg-cover; 
+    }
+
+    #root {
+        @apply min-h-screen h-full w-full bg-palette-background/40;
+    }
+}
